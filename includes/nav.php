@@ -6,13 +6,13 @@
             </a>
         </div>
 
-        <div class="flex flex-1 justify-end">
-            <input class="w-52 bg-transparent text-sm border border-slate-950 rounded-md  py-1 px-2 focus:outline-none" placeholder="Procure a receita..." type="text" />
-            <div class="translate-y-1 -translate-x-8">   
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <div class="relative flex flex-1 justify-end">
+            <div class="pointer-events-auto absolute translate-y-1 -translate-x-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute h-5 w-5 text-gray-800 size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
             </div>
+            <input class="w-52 bg-transparent text-sm border border-slate-950 rounded-md  py-1 px-2 focus:outline-none" placeholder="Procure a receita..." type="text" />
         </div>
        
 
@@ -32,7 +32,9 @@
             </button>
         </div>
     </div> 
+
     <div class="">
         <hr class="border-black mx-10 my-2">
-    </div>          
+    </div> 
+
 </nav>

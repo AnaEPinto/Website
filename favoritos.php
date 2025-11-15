@@ -9,6 +9,7 @@
 
 <body class= "bg-[#F6F4F3]">
     <?php require('includes/nav.php'); ?>
+    
     <?php require('includes/footer.php'); ?>
 </body>
 </html>

@@ -17,7 +17,7 @@
                 
                 <img class="absolute inset-0 w-full h-full object-cover px-10" src="imagem/login.jpg" alt="Cozinados">
 
-                <div class="relative z-10 w-full max-w-md bg-[#F6F4F3] p-6 rounded-lg shadow-md mx-4"> 
+                <div class="relative z-10 w-full max-w-md bg-[#F6F4F3]/95 p-6 rounded-lg shadow-md mx-4 border border-gray-100">
                     
                     <h2 class="text-2xl font-bold mb-6 text-center text-gray-700">Iniciar Sessão</h2>
 
